@@ -1,6 +1,44 @@
 .body {
 
 }
-.div{
-  
+#track1{
+  background-color: grey;
+  width: 900px;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: fixed;
+}
+#track2{
+  background-color: grey;
+  width: 900px;
+  height: 90px;
+  margin-top: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: fixed;
+}
+#player-one{
+  background-color: purple;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+#player-two{
+  background-color: purple;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+
 }
