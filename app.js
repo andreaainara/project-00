@@ -21,7 +21,7 @@ $(document).on('ready', function() {
   $('#reset').on("click" , function resetGame(e){
     playerOne.animate ({
       'left': '0px'
-    });
+    }, 0);
     playerTwo.animate({
       'left': '0px'
     } ,0 );
