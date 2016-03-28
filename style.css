@@ -1,4 +1,11 @@
-.body {
+body {
+background-image: url('http://www.axsysnav.eu/wp-content/uploads/2014/07/space1.jpg');
+}
+
+h1 {
+  color: white;
+  font-family: helvetica;
+  text-align: center;
 
 }
 #track1{
@@ -29,6 +36,8 @@
   position: relative;
   color: white;
   text-align: center;
+  font-family: helvetica;
+  font-size: 50px;
 }
 #player-two{
   background-color: purple;
@@ -40,5 +49,12 @@
   position: relative;
   color: white;
   text-align: center;
+  font-family: helvetica;
+  font-size: 50px;
+}
 
+.button {
+  margin-top: 40px;
+  align: center;
+  position: relative;
 }
