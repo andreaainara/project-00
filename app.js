@@ -10,16 +10,8 @@ $(document).on('ready', function() {
       playerOne.animate({'left': '+=10px' }, 0);
     } else if (e.keyCode === 108) {
       playerTwo.animate({ 'left': '+=10px' }, 0);
-    }
-  });
-
-  function getWinner() {
-    if(playerOne.css('left') == '810px'){
-        alert("player one wins!");
-  } else if (playerTwo.css('left') =='810px'){
-        alert("player two wins!");
-  }
 }
+});
   $('#reset').on("click" , function resetGame(e){
     playerOne.animate ({
       'left': '0px'
@@ -29,3 +21,10 @@ $(document).on('ready', function() {
     } ,0 );
   });
 });
+});
+function alertWinner() {
+  if(playerOne.css === ('left') === '810px') {
+      alert("player one wins!");
+} else if (playerTwo.css === ('left') === '810px') {
+      alert("player two wins!");
+}
